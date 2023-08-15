@@ -97,6 +97,37 @@
     <section>
       <h2>2010s: Deep Learning</h2>
       <p>Revival with deep learning, big data's role.</p>
+	  <div class="mermaid">
+		<pre>
+
+	  ---
+title: Animal example
+---
+classDiagram
+    note "From Duck till Zebra"
+    Animal <|-- Duck
+    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
+</pre>
+</div>
     </section>
 
     <!-- Slide 6 -->
@@ -218,6 +249,7 @@
 				slideNumber: true,
 				showNotes: false,
 				footer: "Hello",
+				center: false,
 				 // mermaid initialize config
 				 mermaid: {
       			// flowchart: {
