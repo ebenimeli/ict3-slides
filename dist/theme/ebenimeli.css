@@ -364,12 +364,14 @@ body {
 
 .slides {
   border: 1px solid steelblue;
-  border-left: 20px solid steelblue;
+  border-left: 20px solid gray;
   text-align: left;
   background-color: white;
-  padding-top: 25px;
+  padding-top: 20px;
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 20px;
+  max-height: 650px;
 }
 
 .reveal .slides section,
@@ -392,20 +394,20 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   color: steelblue;
+  width: 850px;
 }
 
 .reveal > .overlay.overlay-help .viewport .viewport-inner table th, .reveal > .overlay.overlay-help .viewport .viewport-inner table td {
   width: 200px;
   padding: 14px;
   border: 1px solid #fff;
-  vertical-align: text-top !important;
 }
 
 img.rounded {
   border-radius: 50%;
   /*border: 7px dotted steelblue;*/
   padding: 2px;
-  width: 400px;
+  width: 300px;
   float: right;
   /*display: inline-block;*/
   /* Asegura que la sombra se aplique correctamente */
@@ -417,34 +419,54 @@ img.squared {
   /*border: 7px dotted steelblue;*/
   padding: 2px;
   margin-left: 10px;
-  margin-right: 25px;
-  width: 400px;
+  margin-right: 50px;
+  width: 300px;
   float: right;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   /* Valores para la sombra: desplazamiento-x, desplazamiento-y, difuminado, color */
 }
 
 .image-container {
-  width: 400px;
-  /* Fixed width for the container */
-  height: 738px;
-  /* Fixed height for the container */
   /*border: 1px solid #ccc;*/
   /* Optional border for visualization */
   overflow: hidden;
   /* Hide any overflowing content */
-  /* Center the image within the container */
-  /*display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
   position: fixed;
   /* Position the image fixed in the viewport */
-  top: -20px;
-  /* Adjust the top position */
-  right: -5px;
-  /* Adjust the left position */
-  /*z-index: 999;*/
+  z-index: 999;
   /* Optional: Adjust the stacking order */
+}
+
+.rect-r {
+  width: 400px;
+  /* Fixed width for the container */
+  height: 600px;
+  /* Fixed height for the container */
+  top: 52px;
+  /* Adjust the top position */
+  right: 0px;
+  /* Adjust the left position */
+}
+
+.fullslide {
+  width: 1052px;
+  height: 727px;
+  top: -39px;
+  left: -46px;
+  right: 0px;
+}
+
+.large {
+  width: 940px;
+  height: 529px;
+  left: 0px;
+  top: 100px;
+  right: 0px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  /* Valores para la sombra: desplazamiento-x, desplazamiento-y, difuminado, color */
 }
 
 .image-container img {

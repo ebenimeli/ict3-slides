@@ -68,8 +68,8 @@
 
     <!-- Slide 3 -->
     <section>
-		<div class="image-container">
-			<img src="images/mars_rover.jpg" alt="Rectangular Image">
+		<div class="image-container rect-r">
+			<img src="images/mars_rover.jpg">
 		</div>
 		  
       <h2>1970s-1980s: AI Winter</h2>
@@ -132,15 +132,19 @@ classDiagram
 
     <!-- Slide 6 -->
     <section>
-      <h2>AI in Daily Life</h2>
-      <p>Integration in virtual assistants, healthcare, finance.</p>
+	  <div class="image-container fullslide">
+	    <img src="images/mars_rover.jpg">
+      </div>
     </section>
 
     <!-- Slide 7 -->
     <section>
-      <h2>Present and Future</h2>
-      <p>AI's impact, potential across industries.</p>
-    </section>
+		<h2>2010s: Deep Learning</h2>
+
+		<div class="image-container large">
+			<img src="images/ai.jpg">
+		</div>    
+	</section>
 
     <!-- Slide 8 -->
     <section>
@@ -250,6 +254,10 @@ classDiagram
 				showNotes: false,
 				footer: "Hello",
 				center: false,
+				transition: 'fade',
+				transitionSpeed: 'slow',
+				backgroundTransition: 'slide',
+				hideCursorTime: 5000,
 				 // mermaid initialize config
 				 mermaid: {
       			// flowchart: {
