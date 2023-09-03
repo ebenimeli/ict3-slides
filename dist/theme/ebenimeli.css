@@ -359,12 +359,13 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   }
 }
 body {
-  /*background-color: #696969!important;*/
+  background-color: #778899 !important;
 }
 
 .slides {
   border: 1px solid steelblue;
   border-left: 20px solid gray;
+  border-left: 20px solid DarkSlateGray;
   text-align: left;
   background-color: white;
   padding-top: 20px;

@@ -41,12 +41,13 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
 
 body {
-    /*background-color: #696969!important;*/
+  background-color: #778899!important;  
 }
 
 .slides {
     border: 1px solid steelblue;
     border-left: 20px solid gray;
+    border-left: 20px solid DarkSlateGray;
     text-align: left;
     background-color: white;
     padding-top: 20px;
