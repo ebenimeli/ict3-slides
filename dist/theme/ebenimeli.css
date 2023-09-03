@@ -459,6 +459,16 @@ img.squared {
   right: 0px;
 }
 
+.fs {
+  text-align: center;
+}
+
+.fs img {
+  height: 640px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  /* Valores para la sombra: desplazamiento-x, desplazamiento-y, difuminado, color */
+}
+
 .large {
   width: 940px;
   height: 529px;
